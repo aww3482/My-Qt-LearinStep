@@ -17,7 +17,8 @@ public:
 
 private slots:
     void on_findButton_clicked();
-
+    void OnStartClicked();
+    void OnStopClicked();
 private:
     Ui::TextFinder *ui;
     void LoadTextFile();
