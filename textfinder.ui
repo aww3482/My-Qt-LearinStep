@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>357</width>
-    <height>282</height>
+    <width>511</width>
+    <height>506</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>TextFinder</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>40</x>
@@ -46,6 +46,49 @@
     </item>
     <item>
      <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>360</y>
+     <width>260</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>计数</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLCDNumber" name="lcdNumber"/>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="lcdNumber_2"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>开始</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>结束</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
