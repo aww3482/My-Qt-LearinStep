@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         textfinder.cpp \
-    threaddemo.cpp
+        threaddemo.cpp \
+    threadfromqthread.cpp
 
 HEADERS += \
         textfinder.h \
-    threaddemo.h
+    threaddemo.h \
+    threadfromqthread.h
 
 FORMS += \
         textfinder.ui
